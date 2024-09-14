@@ -1,0 +1,350 @@
+/* universal */
+
+* {
+    box-sizing: border-box;
+}
+
+/* btn */
+
+.submit {
+    color: white;
+    background-color: #b8c5cf;
+    border: none;
+    padding:5px 30px;
+    border-radius: 7px;
+
+}
+
+.bottomSubmit {
+    background-color: #8f9ca3;
+}
+
+.headBtn {
+    background-color: #333942;
+    color: white;
+    padding:.5% 3%;
+}
+
+/* header */
+ header * {
+    display: inline-block;
+
+ }
+header li {
+    margin-left: 300px;
+    
+}
+
+ header {
+    height: 4vh;
+ }
+.intro h2, .intro p, .intro span , .intro form , .intro img {
+    margin-left: 12%;
+    max-width: 45%;
+}
+
+
+ .logo {
+    width: 160px;
+    margin-left: 8% ;
+    margin-top: 4%;
+ }
+
+ /* section 1 / main */
+
+ .intro {
+    background-color: #f1f3f5;
+    height: 30vh;
+ }
+
+ .intro p, .intro span {
+    font-size: .9rem;
+ }
+
+ /* section 2 / empowers */
+ 
+ .mission {
+    height: 30vh;
+    text-align: center;
+    padding: 0 7%;
+ }
+
+ .mission span {
+    display: inline-block;
+    width: 40%;
+    border-top: 4px solid #ffddf0 ;
+    margin-left: 5%;
+    
+ }
+
+ .mission > h1 {
+    margin-top: 10%;
+ }
+
+
+
+ /* section 3 / img */
+
+ .img {
+    background-color: #f1f3f5;
+    height: 55vh;
+    display: inline-block;
+    font-size: 1.5rem;
+    
+ }
+
+ .img * {
+    padding: 1%;
+ }
+
+ .img p {
+    width: 100%;
+    
+ }
+
+ .container1 {
+    display: inline-block;
+    width: 63%;
+ }
+
+ .container2 {
+   
+    width: 20%;
+    display: inline-block;
+    margin-left: 4%;
+ }
+
+ .container2 img  {
+    display: block;
+ }
+
+
+ 
+ /* section 4 / who */
+
+ 
+
+.who {
+    height: 80vh;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+.who h1 {
+    text-align: center;
+}
+
+
+div {
+    border: 5px solid #f9f9fa;
+    height: fit-content;
+}
+
+div img {
+    /* float: left; */
+    margin-right: 2%;
+    padding: 1%;
+}
+
+.art {
+    
+    width: 40%;
+    display: inline-block;
+    margin-top: 3%;
+    height: 40%;
+    margin-left: 5%;
+
+}
+
+.split {
+    padding: 2%;
+
+}
+
+/* footer */
+
+.footer1 {
+    background-color: #b8c5d0;
+    color: white;
+}
+
+.footer1 {
+    padding: 2%;
+}
+
+.footer1 .email {
+    margin-left: 25%;
+    padding: .7%;
+}
+
+
+/* footer2 */
+
+.footer2 {
+    background-color: #8f9ca3;
+    height: 10vh;
+    color: white;
+}
+.footer2 * {
+    display:inline-block ;
+}
+
+.footer2 ul li {
+    padding: 0 40px;
+    text-align: center;
+}
+
+.footer2 nav {
+    border-top: 2px solid white;
+}
+
+/* media queries */
+
+/* Media query for horizontal monitors  */
+
+@media (width <= 1920px) {
+    header {
+        height: 6vh; 
+    }
+
+    header li {
+        
+        margin-left: 90px;
+    }
+
+    .intro {
+        height: 40vh; 
+    }
+
+    .intro h2, .intro p, .intro span, .intro form {
+        margin-left: 5%; 
+        max-width: 50%;
+        font-size: 1.6rem;
+    }
+
+    .email{
+        padding: 1% 12% 0 0%;
+    }
+
+    .mission {
+        height: 35vh; 
+        padding: 0 10%;
+        font-size: 1.5rem;
+    }
+
+    .mission span {
+        width: 30%; 
+        margin-bottom: 4%;
+    }
+
+    .img {
+        height: 40vh; 
+    }
+
+    .container1 {
+        width: 65%; 
+       
+        
+    }
+
+
+    .container2 * {
+       
+        margin-left: 35%;
+    }
+
+
+
+
+    .who {
+        height: fit-content; 
+        height: 100vh;
+        font-size: 2rem;
+    }
+
+    .who p {
+        max-width: 80%;
+        margin-left: 10%;
+        
+    }
+
+   
+    .footer1 {
+        height: 1vh;
+    }
+
+    .footer1 .email {
+        margin-left: 70%;
+    }
+   
+    .footer2 {
+        height: 20vh;
+        margin: 0; 
+    }
+
+    
+}
+
+
+@media (width <= 1600px) {
+
+
+
+    .who {
+        height: 120vh;
+    }
+
+    .headBtn ,.hidden {
+        visibility: hidden;
+    }
+}
+
+
+
+
+@media (width <= 800px) {
+
+
+    .headBtn {
+        background-color: green;
+    }
+    
+    .hidden {
+        visibility: hidden;
+    }
+
+    .intro {
+        height: 50vh;
+    }
+
+    .mission {
+        height: 50vh;
+    }position: absolute
+
+    .mission h1 {
+        margin-top: 20%;
+    }
+    .img {
+        height: 150vh;
+    }
+
+    .img p {
+        width: 130%;
+        margin: 5%;
+    }
+
+    .img img {
+        border: 2px solid red;
+        margin-top: 50%;
+        position: absolute;
+
+        
+    }
+
+    .who {
+        height: 200vh;
+    }
+}

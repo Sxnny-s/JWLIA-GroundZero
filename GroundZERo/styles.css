@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+* {
+    font-size: 1.5rem;
+}
+
 /* Header */
  header {
     background-color: rgb(102, 118, 138);
@@ -79,7 +83,7 @@
 /* section 2 / Why */
 .purpose {
     background-color: rgb(255, 255, 255);
-    height: 16vh;
+    height: 21vh;
     text-align: center;
     padding: 8% 20%;
 }
@@ -115,7 +119,7 @@
 
 .volunteer {
     background-color: rgb(255, 255, 255);
-    height: 20vh;
+    height: 25vh;
     text-align: center;
     padding: 8% 20%;
 }
@@ -128,8 +132,134 @@
 /* section 5 footer */
 
 footer {
-    height: 16vh;
+    height: 5vh;
     background-color: rgb(22, 31, 42);
     color: white;
 }
 
+
+
+
+@media (width <= 1500px) {
+
+    * {
+        font-size: 1.3rem;
+    }
+
+    .container {
+        margin-left: 25%;
+        
+    }
+
+    .intro {
+        height: 25vh;
+    }
+
+    .purpose {
+        height: 25vh;
+    }
+
+    .purpose > h1, .volunteer >h1 {
+        margin-top: 30%;
+    }
+
+    .img {
+        height: 35vh;
+    }
+
+    .volunteer {
+        height: 22vh;
+    }
+
+    footer {
+        height: 5vh;
+        color: #fff;
+
+    }
+}
+
+
+@media (width <= 600px) {
+
+    * {
+        font-size: 1.3rem;
+    }
+
+    .container {
+        margin-left: 25%;
+        
+    }
+
+    .intro {
+        height: 25vh;
+    }
+
+    .purpose {
+        height: 25vh;
+    }
+
+    .purpose > h1, .volunteer >h1 {
+        margin-top: 30%;
+    }
+
+    .img {
+        height: 45vh;
+    }
+
+    .volunteer {
+        height: 25vh;
+    }
+
+    footer {
+        height: 5vh;
+        color: #fff;
+
+    }
+
+
+}
+
+
+
+@media (width <= 450px) {
+
+    * {
+        font-size: 1.3rem;
+    }
+
+    .container {
+        margin-left: 25%;
+        
+    }
+
+    .intro {
+        height: 35vh;
+    }
+
+    .purpose {
+        height: 25vh;
+    }
+
+    .purpose > h1, .volunteer >h1 {
+        margin-top: 30%;
+    }
+
+    .img {
+        height: 50vh;
+    }
+
+    .volunteer {
+        height: 25vh;
+    }
+
+    footer {
+        height: 5vh;
+        color: #fff;
+
+    }
+
+    p {
+        
+        text-align: center;
+    }
+}
